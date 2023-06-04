@@ -1,0 +1,15 @@
+This module aims to test your understanding of generic Trees. Each node in our tree:
+
+Stores a single value
+
+Has one parent (apart from the root)
+
+Can hold any number of children, in any order. 
+
+Further, each node will keep track of the height of its subtree, so make sure you update this!
+
+When adding a new child to a node, add it to the end of the list of children.
+
+In this suite of files, you will find scaffolds for node.py and tree.py. Please implement both files!
+
+NB: Please consult the descriptions for each class method to determine what error cases you must account for!

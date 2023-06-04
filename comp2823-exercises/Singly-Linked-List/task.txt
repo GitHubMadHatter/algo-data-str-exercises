@@ -1,0 +1,9 @@
+Try to implement the Singly Linked List data structure!
+
+Each node contains a value and a link to the next node. It supports operations to set and get its element as well as operations to set and get the element it is linked to.
+
+The Singly Linked List will contain Nodes from the Node class which you have created. It supports operations to get the first and last element, check before and after a particular node, insert an element before or after a particular node, remove a node, check size of list and also check if the list is empty.
+
+Note: Although creating a doubly linked list data structure will fulfil the requirements for this task, it is best to try and create a singly linked list data structure for your learning purposes.
+
+Use left and right arrow keys to adjust the split region size
