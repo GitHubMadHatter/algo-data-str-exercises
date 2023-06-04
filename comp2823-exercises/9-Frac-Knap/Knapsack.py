@@ -33,7 +33,28 @@ class KnapSack:
         :param capacity: The capacity of the knapsack.
         :return: The maximum value that can be obtained into the knapsack.
         """
+        # finding value per weight 
+        normalised_value = []
+        for i in items:
+            normalised_value.append((i[0],i[1]/i[0]))
+        
+        # sorting on value per weight in reverse order 
+        normalised_value.sort(reverse=True, key=lambda i : i[1])
 
-        # TODO: Implement this function.
-        return 0.0
+        # finding max capacity
+        filled = 0
+        max_value = 0.0
+        for value in normalised_value:
+            # if we can fit all of the best value option
+            if filled <= capacity - value[0]:
+                max_value += value[1] * value[0]
+                filled += value[0]
+            # if we can only fit some
+            elif filled < capacity:
+                max_value += value[1] * (capacity - filled)
+                filled += capacity - filled
+            # we are full
+            else:
+                break
 
+        return max_value
