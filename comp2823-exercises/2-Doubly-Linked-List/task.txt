@@ -1,15 +1,13 @@
-This module aims to test your understanding of generic Trees. Each node in our tree:
+Implement a doubly linked list using the provided scaffold below. A doubly linked list stores a list of nodes, each which has connections to the node which comes before and after.
 
-Stores a single value
+The DoublyLinkedList class holds:
+The size of the list
+A reference to the front node
+A reference to the last node
 
-Has one parent (apart from the root)
+The Node class holds:
+The value of the node
+A reference to the node which goes after it
+A reference to the node which goes before it
 
-Can hold any number of children, in any order. 
-
-Further, each node will keep track of the height of its subtree, so make sure you update this!
-
-When adding a new child to a node, add it to the end of the list of children.
-
-In this suite of files, you will find scaffolds for node.py and tree.py. Please implement both files!
-
-NB: Please consult the descriptions for each class method to determine what error cases you must account for!
+So, can you implement a doubly linked list and pass my devilish test cases? Find out now!
