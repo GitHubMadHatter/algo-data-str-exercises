@@ -1,0 +1,19 @@
+You've heard about it in lectures - now try out the fractional knapsack problem yourself!
+
+Formally, the fractional knapsack problem involves calculating the optimal value that you can get from a set of given items. You are allowed to take fractions of an item. You are given the following parameters:
+- capacity: An integer representing the total weight that can fit into your knapsack
+- items: A list of items which you can choose to put any fraction of into your knapsack
+
+An item i is a tuple composed of two value, w_i and v_i representing the weight of the item and the value that the item has. 
+
+There is one function for you to implement: fractional_knapsack which should implement the algorithm and return a number representing the maximum attainable value that is less than or equal to the capacity of the knapsack. Your answer is considered correct if it is within ±1e−5 of the calculated answer.
+
+The following bounds are provided: 
+0≤capacity≤1000000
+0≤len(items)≤100000
+
+For each item i:
+1≤wi≤1000000
+0≤vi≤1000000
+
+Good luck!

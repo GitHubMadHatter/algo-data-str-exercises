@@ -1,0 +1,7 @@
+This class implements a hashmap using separate chaining. Recall that separate chaining is a method of storing data in a hashmap where each cell of the table consists of a list of entries with an identical hashed key.
+
+Inside the scaffold you can find all of the functions needed to be implemented. 
+
+For more details, consult the lecture on hashing.
+
+Good luck!

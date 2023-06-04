@@ -1,0 +1,15 @@
+Maintain a Heap-based implementation of a Priority Queue ADT.
+
+We will be constructing the MIN version of the Priority Queue ADT. This means the ROOT will have the smallest (key, value) pair.
+
+For this task, use a binary-tree implementation of the heap. (See lecture slides for any clarification.)
+
+We will store a collection of key-value items, where:
+
+All keys are integers (there will be no duplicate keys, so don't worry about this edge case!)
+
+All values will be given as strings
+
+Note: You only need to implement the functions in node.pyt and priorityqueue.py marked with a todo.
+
+Good luck!

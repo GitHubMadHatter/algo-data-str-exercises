@@ -1,0 +1,11 @@
+AVL Trees are quite tree-cky!
+
+Maintain an AVL Tree data structure - a binary search tree with the AVL property! The tree will contain nodes made using the node class in node.py.
+
+For this task, there are no restrictions on what each node may hold. However, you do not need to create any specific comparator - this will be given in the test cases (Simply use the ._comparator variable).
+
+You are required to implement this AVL Tree in the style that was shown in the lectures, including using dummy nodes (initialise with Node(None)) as the leaf nodes.
+
+Read the descriptions and see lecture slides for any clarifications.
+
+NB:  You do not have to implement node.py - it has been given!

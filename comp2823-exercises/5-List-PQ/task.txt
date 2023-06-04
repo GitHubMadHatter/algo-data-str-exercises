@@ -1,0 +1,16 @@
+Maintain a List-based implementation of a Priority Queue ADT, storing elements from smallest key to largest key.
+ We will be constructing the MIN version of the Priority Queue ADT.
+
+For this task, use a SORTED list implementation (not the UNSORTED list implementation). (See lecture slides for any clarification.)
+
+We will store a collection of key-value items, where:
+
+All keys are integers (there will be no duplicate keys, so don't worry about this edge case!)
+
+All values will be given as strings
+
+The key-value pairs will be stored in the Item class (see item.py). The priority queue will then have a sorted list of Item objects (sorted by the key).
+
+Note: You only need to implement the functions in priorityqueue.py marked with a todo.
+
+Good luck!

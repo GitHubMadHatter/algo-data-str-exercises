@@ -1,0 +1,9 @@
+Implement a hashmap using open addressing! You will use linear probing to do this.
+
+Although a hashmap should be resized when its size approaches capacity (as per its load factor), you do not have to account for resizing. 
+
+Assume all keys for the hashmap are integers. There is no restriction on what values may be.
+
+A Defunct() class has been created and provided for you. You may use this if you wish, or you can use your own mechanisms for processing DEFUNCT.
+
+NB: You do not need to implement the hash function, it has been given to you.

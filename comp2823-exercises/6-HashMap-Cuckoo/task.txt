@@ -1,0 +1,19 @@
+Maintain a Cuckoo Hashing implementation of a Hashmap ADT. Remember, this data structure requires the use of two lookup tables (t_1, t_2), as well as two hash functions (h_1, h_2).
+
+The two tables and the two hash functions have been set up for you. DO NOT EDIT IT.
+
+Each lookup table will hold key-value tuples, in the form: (key, value)
+
+Recall that for an item with a given key, there are only two possible places where we are allowed to store the item. If unsure, feel free to refer to the lecture slides or ask any clarifications on Ed.
+
+For this implementation, if an eviction cycle is detected, you should:
+
+First double the current capacities for each of the lookup tables
+
+Then, rehash all the items into the resized tables
+
+NB: 
+
+To simplify things, all keys are guaranteed to be integers. 
+
+There may be duplicate values, but there are no duplicate keys.

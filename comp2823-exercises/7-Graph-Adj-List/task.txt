@@ -1,0 +1,17 @@
+Maintain a Adjacency List Graph implementation of a Undirected Graph ADT. The graph should have a list of vertices and a list of edges.
+
+The vertex sequence holds:
+
+Sequence of vertices
+
+Vertex object points to incident edges
+
+The edge sequence holds:
+
+Sequence of edges
+
+Edge object points to the two vertices it connects
+
+Each vertex and edge should also hold one element. Note that you do NOT need to account for vertices or edges with duplicate elements.
+
+You will only need to implement the functions in graphs.py since edge.py and vertex.py have already been filled out for you.
